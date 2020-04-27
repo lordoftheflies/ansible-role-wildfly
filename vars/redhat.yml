@@ -1,0 +1,4 @@
+---
+# roles/wildfly/vars/debian.yml
+
+wildfly_package_extension: 'rpm'

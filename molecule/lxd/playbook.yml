@@ -1,0 +1,9 @@
+---
+- name: Converge
+  hosts: all
+  vars:
+    - wildfly_deployment_users_home: /root
+    - wildfly_testing_provider: lxd
+
+  roles:
+    - wildfly

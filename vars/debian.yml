@@ -1,0 +1,5 @@
+---
+# roles/wildfly/vars/debian.yml
+
+# Debian specific vars
+wildfly_package_extension: 'deb'
